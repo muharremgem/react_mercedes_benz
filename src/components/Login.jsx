@@ -18,17 +18,20 @@ const Login = () => {
           <div className="flex  flex-col ml-[10rem] mt-5  gap-5  justify-center items-center rounded-full">
             <SiMercedes className="text-5xl" />
             <input
-              className="bg-black p-4 "
+              className="bg-black p-4  text-white "
               type="text"
               placeholder="Name"
               required
             />
             <input
-              className="bg-black p-4 "
+              className="bg-black p-4 text-white  "
               type="password"
               placeholder="password"
               required
             />
+            <button className="text-white bg-black rounded-xl p-3 px-5   hover:scale-125 transition-all-4s">
+              Login
+            </button>
           </div>
         </div>
       </form>
