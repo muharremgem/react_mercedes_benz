@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
+    <div className="flex flex-wrap container justify-center items-center gap-10 mt-10 m-auto ">
       <div className="   cursor-pointer">
         <div className="content flex flex-col font-bold justify-center w-[15rem] min-h-[20rem] mt-5 p-5 items-center bg-black rounded-xl ">
           <img
