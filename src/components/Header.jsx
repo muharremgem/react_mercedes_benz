@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex flex-wrap container justify-center items-center gap-10 mt-10 m-auto ">
+    <div className="  flex flex-wrap container justify-center items-center gap-5 mt-10 m-auto">
       <div className="   cursor-pointer">
         <div className="content flex flex-col font-bold justify-center w-[15rem] min-h-[20rem] mt-5 p-5 items-center bg-black rounded-xl ">
           <img
@@ -18,7 +18,7 @@ const Header = () => {
               href="https://www.mercedes-benz.com.tr/passengercars/mercedes-benz-cars/models/a-class/hatchback/explore.html"
               target="_blank"
             >
-              <button className="flex items-center bg-gray-200 py-2 px-5 mt-10 hover:bg-red-500 hover:text-white hover:scale-125 duration-300 rounded-md">
+              <button className="flex  bg-gray-200 py-2 px-5 mt-10 hover:bg-red-500 hover:text-white hover:scale-125 duration-300 rounded-md">
                 Keşfedin
               </button>
             </a>
