@@ -10,17 +10,6 @@ const Home = () => {
       </div>
       <div className="grid grid-cols-3  justify-center">
         <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
       </div>
     </>
   );

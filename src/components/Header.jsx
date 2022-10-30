@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Header = () => {
+  cons
+
+  const api_key = " ";
+  const app_id = " ";
+
+  const getApi = () => {
+    axios
+      .get(``)
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => console.log(err));
+  };
+  useEffect(() => {
+    getApi;
+  }, []);
+
   return (
     <div className="  flex flex-wrap container justify-center items-center gap-5 mt-10 m-auto">
       <div className="   cursor-pointer">
