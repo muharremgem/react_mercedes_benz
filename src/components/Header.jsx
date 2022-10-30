@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { useState, useEffect } from "react";
 
 const Header = () => {
-  cons
+  const [data, setData] = useState("");
 
-  const api_key = " ";
+  const api_key = "1c42e2bc04msh292b177ff7ff427p1ce37bjsnb97351851224";
   const app_id = " ";
 
   const getApi = () => {
